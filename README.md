@@ -1,5 +1,5 @@
-# JavaScript-intro-debrief
-
+# <a href="https://github.com/txlocnguyen/jfs-javascript-intro/blob/main/js/app.js">JavaScript-intro-debrief</a>
+<a href="https://github.com/txlocnguyen/jfs-javascript-intro/blob/main/js/app.js">Finished</a>. Add user-input during extra time.
 1. GenBuzz 
    * Create variable `myNumber`
         * Check that the value of the `myNumber` is of type `number`

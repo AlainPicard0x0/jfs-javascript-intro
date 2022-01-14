@@ -24,5 +24,6 @@ else if(myNumber%3) {
 
 }else{console.log(myNumber)
 
+    
 }
 

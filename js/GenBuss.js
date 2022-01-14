@@ -13,7 +13,7 @@ GenBuzz
   
 let myNumber = 23;
 
-if (typeof myNumber !== 'number'){
+if (typeof myNumber !== 23){
     console.log("This is not a number")
 }
 else if(myNumber%3) {

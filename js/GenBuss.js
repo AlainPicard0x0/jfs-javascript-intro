@@ -11,13 +11,18 @@ GenBuzz
    * 
    */
   
-let myNumber ;
-typeof(myNumber) == Number
+let myNumber = 23;
 
-if (myNumber != Number){
+if (typeof myNumber !== 'number'){
     console.log("This is not a number")
-}else if(myNumber%3) {
+}
+else if(myNumber%3) {
     console.log("Gen")
+
 }else if(myNumber%3 && myNumber%5){
     console.log("GenBuss")
-}else(console.log(myNumber)
+
+}else{console.log(myNumber)
+
+}
+

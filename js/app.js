@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 rl.question("Enter your number: ", function (answer) {
     let myNumber = parseFloat(answer);
-    if (typeof myNumber !== 'number') {
+    if (isNaN(myNumber)) {
         console.log("This is not a number");
     } else if (myNumber % 15 === 0) {
         console.log("GenBuzz");

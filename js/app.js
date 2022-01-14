@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 rl.question("Enter your number: ", function (answer) {
     let myNumber = parseFloat(answer);
-    if (typeof myNumber !== "number") {
+    if (typeof myNumber !== 'number') {
         console.log("This is not a number");
     } else if (myNumber % 15 === 0) {
         console.log("GenBuzz");
@@ -35,9 +35,7 @@ rl.question("Enter your number: ", function (answer) {
                 console.log("Invalid item");
                 break;
         }
-        console.log("Random number between 0 and 50: " + (Math.floor(Math.random() * (100 - 50) + 50)))
+        console.log("Random number between 50 and 100: " + (Math.floor(Math.random() * (100 - 50) + 50)))
         rl.close();
     });
-    
-
 });
